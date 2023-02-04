@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btn-light{
+      box-shadow: 0px 0px 100px rgb(21, 128, 61);
+  }
+}

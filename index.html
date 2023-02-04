@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <title>you're tired isn't it?</title>
+</head>
+<body class="bg-gray-900">
+  <main class="container h-screen mx-auto flex justify-center items-center">
+    <!-- button -->
+    <section>
+      <button id="button" class="px-5 py-2 bg-green-700 text-gray-900 font-semibold rounded tracking-wider active:scale-90 hover:btn-light duration-300">
+        Click me
+      </button>
+    </section>
+    <!-- button -->
+      
+    <!-- pop up -->
+    <section id="card" class="w-full h-full hidden items-center justify-center duration-300">
+      <div id="box" class="w-96 bg-gray-800 p-5 shadow-xl rounded animate-cardIn">
+        <!-- head -->
+        <div class="mb-2">
+          <h1 class="text-xl tracking-wider text-white">did i?</h1>
+        </div>
+        <!-- head -->
+
+        <!-- body -->
+        <div class="mb-2">
+          <p class="tracking-wider leading-relaxed text-slate-300">
+            I clearly never be your option isn't it? Ah, pathetic.
+          </p>
+        </div>
+        <!-- body -->
+
+        <!-- foot -->
+        <div class="text-right">
+          <button id="button-play" class="px-2 py-1 text-sm bg-green-700 text-gray-900 font-semibold tracking-wider rounded">Listen these</button>
+        </div>
+        <!-- foot -->
+      </div>
+    </section>
+    <!-- pop up -->
+
+    <!-- song -->
+    <section id="song-wrapper" class="w-full h-full hidden items-center justify-center duration-300">
+      <div class="w-80 h-80 shadow-xl rounded animate-fadeIn">
+        <div class="w-full h-full">
+          <img src="dist/img/img.jpg" alt="img.jpg" class="w-full h-full brightness-75 rounded">
+        </div>
+      </div>
+    </section>
+    <!-- song -->
+  </main>
+
+  <script src="dist/js/script.js"></script>
+</body>
+</html>
